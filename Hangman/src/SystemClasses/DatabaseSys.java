@@ -5,8 +5,8 @@ import java.sql.*;
 public class DatabaseSys {
 	public static Connection logInToDatabase() {
 		String		url = "jdbc:mysql://localhost:3306/hangman";
-		String		username = "root";
-		String		password = "Ayhan1989";
+		String		username = "username";
+		String		password = "password";
 		Connection 	con = null;
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
